@@ -18,3 +18,5 @@ Decimal diff = avg - currentPrice;
 Decimal portfolioShare = diff / currentPrice * scale;
 ```
 The scale is by default set to 200, you’ll see that means that a change of .5% from the 20 minute average would cause 100% of your portfolio to be invested
+
+### I have been holding onto this for a few months now
