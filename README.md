@@ -4,7 +4,7 @@ Reversion to the mean involves retracing a condition back to its long-run averag
 
 
 ## My implementation
-I have used the C# SDK for Alpaca’s paper trading API to run a neat mean reversion algrorithm <br/>
+I have used the C# SDK for Alpaca’s paper trading API to run a neat mean reversion algorithm <br/>
 To connect to the API, create a new REST client, giving it the keys and the API URL. Using the REST client, we check Alpaca’s clock and calendar API endpoints to figure out when the market will open and when we’re getting too near to close.
 
 ## Logic
